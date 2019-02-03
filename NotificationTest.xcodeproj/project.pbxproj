@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155EBC2821FA337100C8152C /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 155EBC2721FA337100C8152C /* marker.png */; };
 		FA9BA65E210E48C900C9D9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BA65D210E48C900C9D9E4 /* AppDelegate.swift */; };
 		FA9BA660210E48C900C9D9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BA65F210E48C900C9D9E4 /* ViewController.swift */; };
 		FA9BA663210E48C900C9D9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9BA661210E48C900C9D9E4 /* Main.storyboard */; };
 		FA9BA665210E48C900C9D9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9BA664210E48C900C9D9E4 /* Assets.xcassets */; };
 		FA9BA668210E48C900C9D9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9BA666210E48C900C9D9E4 /* LaunchScreen.storyboard */; };
+		FA9BA670210E520700C9D9E4 /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9BA66F210E520700C9D9E4 /* NotificationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		155EBC2721FA337100C8152C /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = marker.png; path = Assets.xcassets/marker.imageset/marker.png; sourceTree = "<group>"; };
 		FA9BA65A210E48C900C9D9E4 /* NotificationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9BA65D210E48C900C9D9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9BA65F210E48C900C9D9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		FA9BA664210E48C900C9D9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9BA667210E48C900C9D9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9BA669210E48C900C9D9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9BA66F210E520700C9D9E4 /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			children = (
 				FA9BA65D210E48C900C9D9E4 /* AppDelegate.swift */,
 				FA9BA65F210E48C900C9D9E4 /* ViewController.swift */,
+				FA9BA66F210E520700C9D9E4 /* NotificationDelegate.swift */,
 				FA9BA661210E48C900C9D9E4 /* Main.storyboard */,
+				155EBC2721FA337100C8152C /* marker.png */,
 				FA9BA664210E48C900C9D9E4 /* Assets.xcassets */,
 				FA9BA666210E48C900C9D9E4 /* LaunchScreen.storyboard */,
 				FA9BA669210E48C900C9D9E4 /* Info.plist */,
@@ -91,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = razan;
 				TargetAttributes = {
 					FA9BA659210E48C900C9D9E4 = {
@@ -126,6 +132,7 @@
 				FA9BA668210E48C900C9D9E4 /* LaunchScreen.storyboard in Resources */,
 				FA9BA665210E48C900C9D9E4 /* Assets.xcassets in Resources */,
 				FA9BA663210E48C900C9D9E4 /* Main.storyboard in Resources */,
+				155EBC2821FA337100C8152C /* marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9BA660210E48C900C9D9E4 /* ViewController.swift in Sources */,
+				FA9BA670210E520700C9D9E4 /* NotificationDelegate.swift in Sources */,
 				FA9BA65E210E48C900C9D9E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +185,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +193,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +244,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +252,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
 				INFOPLIST_FILE = NotificationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = razan.NotificationTest;
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR64E8K793;
 				INFOPLIST_FILE = NotificationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = razan.NotificationTest;
